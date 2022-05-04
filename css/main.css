@@ -396,9 +396,28 @@ form .btn {
   .mobile {
     display: none; } }
 
+@media screen and (max-width: 1500px) {
+  #slider .slide .txt p {
+    max-width: 75%; } }
+
+@media screen and (max-width: 1050px) {
+  #slider .slide .txt .slider-cnt {
+    max-width: 75%; }
+    #slider .slide .txt .slider-cnt h2 {
+      font-size: 42px; }
+    #slider .slide .txt .slider-cnt p {
+      font-size: 15px; }
+    #slider .slide .txt .slider-cnt .btn {
+      padding: 10px 35px; } }
+
 @media screen and (max-width: 991px) {
   header .navbar-nav .nav-item .nav-link {
     border-radius: 0; } }
+
+@media screen and (max-width: 800px) {
+  #slider .slide .txt .slider-cnt p {
+    font-size: 14px;
+    max-width: 85%; } }
 
 @media screen and (max-width: 767px) {
   .desk {
@@ -410,8 +429,15 @@ form .btn {
     transform: translateX(-50%);
     width: 100%;
     padding: 0 30px; }
-    #slider .slide .txt h2 {
-      font-size: 45px; }
+    #slider .slide .txt .slider-cnt {
+      max-width: 100%; }
+      #slider .slide .txt .slider-cnt h2 {
+        font-size: 45px; }
+      #slider .slide .txt .slider-cnt p {
+        font-size: 20px;
+        max-width: 100%; }
+      #slider .slide .txt .slider-cnt .btn {
+        padding: 10px 35px; }
   .btn.mobile {
     text-align: right; } }
 
